@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "StartPage", "StartPage\StartPage.rptproj", "{7B752FFA-F10B-49ED-B462-A7B0826E8286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Daily", "1. Daily", "{2EDB4057-97E7-481D-A865-B9D42051EF77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinMon", "FinMon", "{B229B1D1-688B-4A3A-BACF-8F51F1B5765C}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "FinMon", "1. Daily\FinMon\FinMon.rptproj", "{B4EC1080-6C48-4735-820D-6D37436C8DB7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D497FE0-417A-49F7-AC1D-1741EF07522F} = {1D497FE0-417A-49F7-AC1D-1741EF07522F}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "subreports", "subreports", "{8BBDFFAC-CD86-49E1-B70A-02FD1D1E5DE0}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "subreports", "1. Daily\FinMon\subreports\subreports.rptproj", "{1D497FE0-417A-49F7-AC1D-1741EF07522F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Weekly", "2. Weekly", "{E582EC48-8F53-48F8-87DA-A6193EB8F7BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Monthly", "3. Monthly", "{2192C7C6-D3C3-40D1-B93A-A32CC24B0B93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{6071DCEE-BD73-4A31-9000-F4EA8EE281B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B752FFA-F10B-49ED-B462-A7B0826E8286}.Debug|Default.ActiveCfg = Debug
+		{7B752FFA-F10B-49ED-B462-A7B0826E8286}.Debug|Default.Build.0 = Debug
+		{7B752FFA-F10B-49ED-B462-A7B0826E8286}.Debug|Default.Deploy.0 = Debug
+		{7B752FFA-F10B-49ED-B462-A7B0826E8286}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{7B752FFA-F10B-49ED-B462-A7B0826E8286}.DebugLocal|Default.Build.0 = DebugLocal
+		{7B752FFA-F10B-49ED-B462-A7B0826E8286}.Release|Default.ActiveCfg = Release
+		{7B752FFA-F10B-49ED-B462-A7B0826E8286}.Release|Default.Build.0 = Release
+		{7B752FFA-F10B-49ED-B462-A7B0826E8286}.Release|Default.Deploy.0 = Release
+		{B4EC1080-6C48-4735-820D-6D37436C8DB7}.Debug|Default.ActiveCfg = Debug
+		{B4EC1080-6C48-4735-820D-6D37436C8DB7}.Debug|Default.Build.0 = Debug
+		{B4EC1080-6C48-4735-820D-6D37436C8DB7}.Debug|Default.Deploy.0 = Debug
+		{B4EC1080-6C48-4735-820D-6D37436C8DB7}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{B4EC1080-6C48-4735-820D-6D37436C8DB7}.DebugLocal|Default.Build.0 = DebugLocal
+		{B4EC1080-6C48-4735-820D-6D37436C8DB7}.Release|Default.ActiveCfg = Release
+		{B4EC1080-6C48-4735-820D-6D37436C8DB7}.Release|Default.Build.0 = Release
+		{B4EC1080-6C48-4735-820D-6D37436C8DB7}.Release|Default.Deploy.0 = Release
+		{1D497FE0-417A-49F7-AC1D-1741EF07522F}.Debug|Default.ActiveCfg = Debug
+		{1D497FE0-417A-49F7-AC1D-1741EF07522F}.Debug|Default.Build.0 = Debug
+		{1D497FE0-417A-49F7-AC1D-1741EF07522F}.Debug|Default.Deploy.0 = Debug
+		{1D497FE0-417A-49F7-AC1D-1741EF07522F}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{1D497FE0-417A-49F7-AC1D-1741EF07522F}.DebugLocal|Default.Build.0 = DebugLocal
+		{1D497FE0-417A-49F7-AC1D-1741EF07522F}.Release|Default.ActiveCfg = Release
+		{1D497FE0-417A-49F7-AC1D-1741EF07522F}.Release|Default.Build.0 = Release
+		{1D497FE0-417A-49F7-AC1D-1741EF07522F}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B229B1D1-688B-4A3A-BACF-8F51F1B5765C} = {2EDB4057-97E7-481D-A865-B9D42051EF77}
+		{B4EC1080-6C48-4735-820D-6D37436C8DB7} = {B229B1D1-688B-4A3A-BACF-8F51F1B5765C}
+		{8BBDFFAC-CD86-49E1-B70A-02FD1D1E5DE0} = {B229B1D1-688B-4A3A-BACF-8F51F1B5765C}
+		{1D497FE0-417A-49F7-AC1D-1741EF07522F} = {8BBDFFAC-CD86-49E1-B70A-02FD1D1E5DE0}
+		{6071DCEE-BD73-4A31-9000-F4EA8EE281B6} = {2EDB4057-97E7-481D-A865-B9D42051EF77}
+	EndGlobalSection
+EndGlobal
